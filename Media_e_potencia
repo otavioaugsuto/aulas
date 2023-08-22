@@ -1,0 +1,55 @@
+programa {
+  funcao inicio() {
+    
+
+    inteiro n1, n2, n3, n4, n5, media, soma
+
+    escreva("Digite a idade do primeiro atleta: ")
+    leia(n1)
+  
+  
+    escreva("Digite a idade do segundo atleta: " )
+    leia(n2)
+
+    
+    escreva("Digite a idade do terceiro atleta: " )
+    leia(n3)
+
+    
+    escreva("Digite a idade do quarto atleta: " )
+    leia(n4)
+
+    
+    escreva("Digite a idade do quinto atleta: " )
+    leia(n5)
+  
+    soma = n1+n2+n3+n4+n5
+    media = soma / 5
+
+    escreva("A média da idade dos atletas é: ", media)
+  }
+}
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+programa {
+
+  inclua biblioteca Matematica --> mat
+
+  funcao inicio() {
+    
+real base, expoente, resultado
+
+escreva("Digite a base:")
+leia(base)
+
+escreva("Digite a potência:")
+leia(expoente)
+
+resultado = mat.potencia(base,expoente) 
+
+escreva("O reultado da potência:", resultado)
+  }
+}
